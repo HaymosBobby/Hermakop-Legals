@@ -1,0 +1,114 @@
+#navbar .logo {
+  display: none;
+}
+
+#navbar .icon {
+  display: block;
+}
+
+#mobile_nav .mobile_navigations {
+  top: 50px;
+}
+
+/* Showcase */
+
+#showcase {
+  padding: 0 20px;
+}
+
+#showcase .showcase_content h1{
+  font-size: 2.33rem;
+  text-align: center;
+  width: 100%;
+}
+
+#showcase .showcase_content p {
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+/* About Us */
+#about_us {
+  min-height: 400px;
+}
+
+#about_us .image {
+  display: none;
+}
+
+#about_us .about_us_content h3{
+  font-size: 1.5rem;
+}
+
+/* Our Publications */
+#our_publications .publictions_container {
+  padding: 30px;
+}
+
+#our_publications .publications .card:not(:first-child) {
+  display: none;
+}
+
+#our_publications .publications .card  {
+  width: 100%;
+  flex: 1;
+  justify-content: center;
+}
+
+#our_publications .publications_container .arrow img {
+  height: 30px;
+  width: 30px;
+  padding: 10px;
+  /* display: none; */
+}
+
+/* Enquiry Form */
+#enquiry_form .form_group .form {
+  flex-direction: column;
+  /* width: fit-content; */
+}
+
+#enquiry_form .form_group .form input,
+#enquiry_form .form_group .form textarea {
+  min-width: 268px;
+  border-radius: none;
+}
+
+#enquiry_form .form_group .form input::placeholder,
+#enquiry_form .form_group .form textarea::placeholder {
+  font-size: 0.6rem;
+}
+
+/* Footer | Contact Us */
+.footer .container {
+  flex-direction: column;
+  /* align-items: flex-start;
+  justify-content: flex-start; */
+}
+
+.footer .container .list_item_2{
+  margin-top: 30px;
+}
+
+.footer .container .list_item_2 .contact p {
+  margin-top: 20px;
+}
+
+.footer .container .list_item {
+  width: 100%;
+}
+
+.footer .container .list_item_2 {
+  padding: 0;
+}
+
+.footer .container .list_item_3 {
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+
+.footer .container .list_item_3 p {
+  margin-top: 0px;
+  text-align: center;
+}
